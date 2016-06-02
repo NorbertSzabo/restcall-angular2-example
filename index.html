@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angular 2 - Example with REST call </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+
+		<my-hello-component>The page is loading...</my-hello-component>
+
+		
+		<!-- loading the Angular2 libraries and setting up the application start point --> 
+		<script src="build/lib/es6-shim.min.js"></script>
+		<script src="build/lib/es6-promise.min.js"></script>
+		<script src="build/lib/system-polyfills.js"></script>
+		<script src="build/lib/angular2-polyfills.js"></script>
+		<script src="build/lib/system.src.js"></script>
+		<script src="build/lib/Rx.js"></script>
+		<script src="build/lib/angular2.js"></script>
+		<script src="build/lib/http.dev.js"></script>
+		<script src="build/lib/require.js"></script>
+		
+
+		<script>
+			System.config({
+				packages: {        
+				  build: {
+					format: 'register',
+					defaultExtension: 'js'
+				  }
+				}
+			  });	
+			System.import('build/main').catch(console.log.bind(console));      
+		</script>
+
+		<!-- Bootstrap & JQuery-->
+		<script src="build/lib/jquery/jquery.min.js"></script>	
+		<link rel="stylesheet" href="build/lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="build/lib/bootstrap/css/bootstrap-theme.min.css">
+		<script src="build/lib/bootstrap/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
+

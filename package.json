@@ -1,0 +1,31 @@
+{
+  "name": "restcall-angular2-example",
+  "description": "A starter project for AngularJS",
+  "repository": "https://github.com/NorbertSzabo/restcall-angular2-example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp",      
+    "start": "gulp dev" 	
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.17",
+    "systemjs": "0.19.25",
+    "es6-shim": "^0.35.0",
+    "es6-promise": "3.1.2",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.6",
+    "requirejs": "2.2.0",
+    "gulp-tsc": "1.1.5",
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.3"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-rename": "1.2.2",
+    "gulp-traceur": "0.17.2",
+    "gulp-typescript": "^2.8.2",
+    "gulp-webserver": "0.9.1",
+	"gulp-sourcemaps": "1.6.0"
+  }
+}
